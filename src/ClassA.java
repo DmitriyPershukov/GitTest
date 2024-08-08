@@ -9,5 +9,9 @@ public class ClassA {
 
     public void doA(int multiplier){
          a *= multiplier;
-     }
+    }
+
+    public int doB(){
+        return a + b;
+    }
 }
