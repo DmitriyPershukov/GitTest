@@ -11,7 +11,12 @@ public class ClassA {
          a *= multiplier;
     }
 
-    public static void sayHello(){
+    public static void sayHello() {
         System.out.println("Hi.");
+    }
+
+    public int doB(){
+        return a + b;
+
     }
 }
