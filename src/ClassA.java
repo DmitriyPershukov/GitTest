@@ -9,5 +9,9 @@ public class ClassA {
 
     public void doA(int multiplier){
          a *= multiplier;
-     }
+    }
+
+    public static void sayHello(){
+        System.out.println("Hi.");
+    }
 }
